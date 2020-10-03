@@ -17,8 +17,11 @@ gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windo
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews'
 gsettings set org.gnome.desktop.session idle-delay 0
 
-sudo apt install gnome-tweak-tool
-sudo apt install composer
-sudo apt install git
-sudo apt install nodejs
-sudo apt install npm
+sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+
+sudo apt -y install nodejs
+sudo apt -y install gnome-tweak-tool
+sudo apt -y install git
+sudo apt -y install php7.4
+sudo apt -y install composer
