@@ -7,6 +7,7 @@ cp git-prompt.sh ~/.git-prompt.sh
 cp bash_aliases ~/.bash_aliases
 cp inputrc ~/.inputrc
 cp gitconfig ~/.gitconfig
+cp gitignore ~/.gitignore
 cp selected_editor ~/.selected_editor
 
 chmod +x ~/.git-completion.sh
@@ -29,5 +30,8 @@ sudo apt -y install git
 sudo apt -y install php7.4
 sudo apt -y install composer
 
-#php extensions
+# php extensions
 sudo apt -y install php7.4-xml
+
+# git gitconfig
+git config --global core.excludesfile ~/.gitignore
