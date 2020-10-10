@@ -6,6 +6,8 @@ cp git-completion.sh ~/.git-completion.sh
 cp git-prompt.sh ~/.git-prompt.sh
 cp bash_aliases ~/.bash_aliases
 cp inputrc ~/.inputrc
+cp gitconfig ~/.gitconfig
+cp selected_editor ~/.selected_editor
 
 chmod +x ~/.git-completion.sh
 chmod +x ~/.git-prompt.sh
@@ -17,6 +19,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock scroll-action 'cycle-windo
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'previews'
 gsettings set org.gnome.desktop.session idle-delay 0
 
+# nodejs
 sudo apt -y install curl dirmngr apt-transport-https lsb-release ca-certificates
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
