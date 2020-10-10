@@ -28,3 +28,6 @@ sudo apt -y install gnome-tweak-tool
 sudo apt -y install git
 sudo apt -y install php7.4
 sudo apt -y install composer
+
+#php extensions
+sudo apt -y install php7.4-xml
