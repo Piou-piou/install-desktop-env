@@ -10,3 +10,6 @@ export PS1='\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\
 # ------------------------------------------------------ END GIT COLOR IN CMD --------------------------------------
 
 alias gitperso="git config user.name Piou-piou && git config user.email pilloud.anthony@gmail.com"
+alias symfony="php bin/console"
+alias ll="ls -alF --block-size=M"
+alias llg="ls -alF --block-size=G"
